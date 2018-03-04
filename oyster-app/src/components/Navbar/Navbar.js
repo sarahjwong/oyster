@@ -18,7 +18,7 @@ const NavBar = (props) => {
           </Navbar.Header>
           <Nav>
             <NavItem>
-              <Link to="/">Explore</Link>
+              <Link to="/explore">Explore</Link>
             </NavItem>
             <NavItem>
               <Link to="/matches">Matches</Link>

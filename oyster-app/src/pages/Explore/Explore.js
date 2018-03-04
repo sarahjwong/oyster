@@ -1,7 +1,9 @@
 import React from 'react'
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { Link } from "react-router-dom";
-import EventButton from '../../components/EventButton/EventButton'
+import EventButton from '../../components/EventButton/EventButton';
+
+import './Explore.css';
 
 
 const Explore = (props) => {
