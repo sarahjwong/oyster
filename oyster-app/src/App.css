@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  height: auto;
+  background: #4568DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .App-logo {
@@ -25,4 +31,29 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+/* Events */
+.location {
+  margin: 30px;
+}
+.event {
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+  width: 800px;
+  border-radius: 10px;
+  background-color: white;
+}
+.event-image {
+  width: 200px;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 10px;
+}
+.event-details {
+  width: 500px;
+  text-align: left;
+  display: inline-block;
 }

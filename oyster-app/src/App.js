@@ -1,40 +1,78 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import {BrowserRouter as Router} from 'react-router-dom'
+// import logo from './logo.svg';
 import './App.css';
-import { Navbar, Nav, NavItem, MenuItem, NavDropdown } from 'react-bootstrap';
+import NavBar from './components/Navbar/Navbar'
+import EventButton from './components/EventButton/EventButton'
+import Routes from './components/Router/Routes'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar>
-              <Navbar.Header>
-              <Navbar.Brand>
-                  <a href="#">React-Bootstrap</a>
-              </Navbar.Brand>
-              </Navbar.Header>
-              <Nav>
-              <NavItem eventKey={1} href="#">Link</NavItem>
-              <NavItem eventKey={2} href="#">Link</NavItem>
-              <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-                  <MenuItem eventKey={3.1}>Action</MenuItem>
-                  <MenuItem eventKey={3.2}>Another action</MenuItem>
-                  <MenuItem eventKey={3.3}>Something else here</MenuItem>
-                  <MenuItem divider />
-                  <MenuItem eventKey={3.3}>Separated link</MenuItem>
-              </NavDropdown>
-              </Nav>
-          </Navbar>
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to no</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Router>
+          <div>
+            <NavBar />
+            <Routes />
+          </div>
+      </Router>
+
       </div>
     );
   }
 }
+
+const exp = () => (
+<div>
+  <div className="location">
+    <h1>Location: Washington, DC</h1>
+  </div>
+
+  <div className="event">
+    <div className="event-details">
+      <h5>Sat, Mar 17 9:00AM</h5>
+      <h4>Tree Planting Near Snowden Park</h4>
+      <h5>Snowden Park</h5>
+      <EventButton />
+      <a href="https://www.eventbrite.com/e/tree-planting-near-snowden-park-tickets-42434396422">&nbsp;More Info</a>
+    </div>
+    <img className="event-image" src={require('./images/snowden.png')}></img>
+  </div>
+
+  <div className="event">
+    <div className="event-details">
+      <h5>Sun, April 15 11:00AM</h5>
+      <h4>All-UC Spring Philanthropy - DC Walk for Wishes</h4>
+      <h5>National Mall</h5>
+      <EventButton />
+      <a href="https://www.eventbrite.com/e/all-uc-spring-philanthropy-dc-walk-for-wishes-registration-41146533389">&nbsp;More Info</a>
+    </div>
+    <img className="event-image" src={require('./images/makeawish.png')}></img>
+  </div>
+
+  <div className="event">
+    <div className="event-details">
+      <h5>Sat, April 21 9:00AM</h5>
+      <h4>Earth Day Volunteer Event at Kenilworth Aquatic Gardens</h4>
+      <h5>Kenilworth Aquatic Gardens</h5>
+      <EventButton />
+      <a href="https://www.eventbrite.com/e/april-21-earth-day-volunteer-event-at-kenilworth-aquatic-gardens-registration-42912496432">&nbsp;More Info</a>
+    </div>
+    <img className="event-image" src={require('./images/kenilworth.jpg')}></img>
+  </div>
+
+  <div className="event">
+    <div className="event-details">
+      <h5>Sat, April 21 9:00AM</h5>
+      <h4>Earth Day Volunteer Event at Kenilworth Aquatic Gardens</h4>
+      <h5>Kenilworth Aquatic Gardens</h5>
+      <EventButton />
+    </div>
+    <img className="event-image" src={require('./images/kenilworth.jpg')}></img>
+  </div>
+  <br></br>
+</div>
+);
+
 
 export default App;
