@@ -16,7 +16,7 @@ const NavBar = (props) => {
               <a href="/">oyster</a>
           </Navbar.Brand>
           </Navbar.Header>
-          <Nav>
+          <Nav pullRight>
             <NavItem>
               <Link to="/explore">Explore</Link>
             </NavItem>

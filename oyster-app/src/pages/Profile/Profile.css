@@ -1,6 +1,41 @@
-.profileHeader {
+/* Settings */
+.header {
+   text-align: right;
+}
 
+#settings {
+  width: 30px;
+  height: 30px;
+  margin: 2px 20px 2px 20px;
+}
+
+/* Bio Section */
+#tom {
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+}
+
+#age, #name {
   font-family: "Fauna One";
   color: white;
+}
 
+#name {
+}
+
+/* Questions */
+.questions {
+  margin: 40px;
+  color: #e2e2e2;
+}
+.question {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.questiontext {
+  font-weight: bold;
+}
+.answertext {
+  font-style: italic;
 }
