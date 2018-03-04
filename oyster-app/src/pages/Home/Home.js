@@ -10,9 +10,10 @@ const Home = (props) => {
     <div>
       <br /><br />
       <h3 className="slogan"> Good deeds, great dates. </h3>
+      <p className="tagline">oyster is the innovative new dating app that encourages contributing to social good with the motivation of making new romantic connections. Find your pearl - sign up today.</p>
       <h1 className="titleHeader"> Sign Up </h1>
 
-      <br /><br /><br /><br />
+      <br /><br />
       <TextForm />
       <br /><br /><br /><br /><br />
       </div>
