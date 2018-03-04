@@ -23,6 +23,17 @@ const Explore = (props) => {
 
       <div className="event">
         <div className="event-details">
+          <h5>Sat, April 14 9:30AM</h5>
+          <h4>Lamond-Riggs Spring Clean Up Day</h4>
+          <h5>Riggs LaSalle Recreation Center</h5>
+          <EventButton />
+          <a href="https://www.eventbrite.com/e/lamond-riggs-spring-clean-up-day-registration-43583574645?aff=es2">&nbsp;More Info</a>
+        </div>
+        <img className="event-image" src={require('../../images/cherryblossom.jpg')}></img>
+      </div>
+
+      <div className="event">
+        <div className="event-details">
           <h5>Sun, April 15 11:00AM</h5>
           <h4>All-UC Spring Philanthropy - DC Walk for Wishes</h4>
           <h5>National Mall</h5>
@@ -31,6 +42,7 @@ const Explore = (props) => {
         </div>
         <img className="event-image" src={require('../../images/makeawish.png')}></img>
       </div>
+
 
       <div className="event">
         <div className="event-details">
@@ -43,16 +55,7 @@ const Explore = (props) => {
         <img className="event-image" src={require('../../images/kenilworth.jpg')}></img>
       </div>
 
-      <div className="event">
-        <div className="event-details">
-          <h5>Sat, April 21 9:00AM</h5>
-          <h4>Earth Day Volunteer Event at Kenilworth Aquatic Gardens</h4>
-          <h5>Kenilworth Aquatic Gardens</h5>
-          <EventButton />
-        </div>
-        <img className="event-image" src={require('../../images/kenilworth.jpg')}></img>
-      </div>
-      <br></br>
+        <br></br>
     </div>
   )
 }
