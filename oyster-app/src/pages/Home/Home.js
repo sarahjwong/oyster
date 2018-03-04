@@ -10,7 +10,7 @@ const Home = (props) => {
     <div>
 
       <h1 className="titleHeader"> Sign Up </h1>
-      <br>
+      <br></br>
       <TextForm />
 
       </div>
