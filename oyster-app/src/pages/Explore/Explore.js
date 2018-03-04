@@ -10,7 +10,6 @@ const Explore = (props) => {
       <div className="location">
         <h1>Location: Washington, DC</h1>
       </div>
-
       <div className="event">
         <div className="event-details">
           <h5>Sat, Mar 17 9:00AM</h5>
