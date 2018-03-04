@@ -1,0 +1,28 @@
+.carousel {
+  background-color: #eaf1ff;
+}
+.carouselItem {
+  text-align: center;
+
+}
+.connectImg {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.info {
+  display: inline-block;
+}
+/* icons */
+.icons {
+  display: inline-block;
+}
+.yes, .no {
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin: 20px;
+}

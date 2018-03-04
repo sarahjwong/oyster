@@ -1,0 +1,12 @@
+.title {
+  font-family: "Fauna One";
+  color: white;
+  font-size: 24px;
+}
+
+.eventCarousel {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
