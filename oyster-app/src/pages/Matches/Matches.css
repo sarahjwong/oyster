@@ -1,0 +1,24 @@
+.matchImg {
+  width: 150px;
+  height: 150px;
+  margin: 15px;
+}
+.matchCard {
+  background-color: white;
+  border-radius: 10px;
+  width: 250px;
+  height: 300px;
+  display: inline-block;
+  margin: 30px;
+}
+
+/* Icons */
+.matchIcons {
+
+}
+.matchIcon {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin: 10px;
+}
