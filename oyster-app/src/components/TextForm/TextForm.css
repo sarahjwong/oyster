@@ -5,14 +5,24 @@
   font-family: 'Fauna One';
   margin: 0 auto;
 
+
 }
 
 .form-control {
-  margin: 0 auto;
+
 
 }
 
 .demoForm {
+height: 900px;
+
+}
+
+.submit-btn {
+
+  font-family: 'Fauna One';
+  height: 70px;
+  width: 150px;
 
 
 }

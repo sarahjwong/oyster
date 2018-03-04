@@ -8,11 +8,11 @@ import './Home.css';
 const Home = (props) => {
   return (
     <div>
-
+      <br /><br />
       <h1 className="titleHeader"> Sign Up </h1>
-      <br>
+      <br /><br /><br /><br />
       <TextForm />
-
+      <br /><br /><br /><br /><br />
       </div>
   )
 }
