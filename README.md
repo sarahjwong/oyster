@@ -1,4 +1,8 @@
 # oyster 
+
+
+http://oystermeetpearl.com.s3-website-us-east-1.amazonaws.com/
+
 ![](https://raw.githubusercontent.com/sarahjwong/oyster/oyster-app/src/images/oyster-logo.png)
 
 ## Inspiration
