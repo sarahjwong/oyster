@@ -13,7 +13,7 @@ const Profile = (props) => {
       </div>
       <div>
         <img id="tom" src={require('../../images/tom.jpg')}></img>
-        <h2 id="name">Tom Holla</h2>
+        <h2 id="name">Tom Holland</h2>
         <h4 id="age">Age 21, Washington DC</h4>
       </div>
 
