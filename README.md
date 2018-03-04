@@ -1,4 +1,5 @@
-# oyster https://github.com/sarahjwong/markdown-here/oyster/oyster-app/src/images/oyster-logo.png
+# oyster 
+[logo]: https://github.com/sarahjwong/markdown-here/oyster/oyster-app/src/images/oyster-logo.png
 ## Inspiration
 Online dating has a reputation for being shallow and meaningless. Our team wondered, how can we rehabilitate and destigmatize today's online dating culture while promoting social good and community involvement?
 
