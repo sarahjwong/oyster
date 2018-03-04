@@ -36,6 +36,8 @@
 /* Events */
 .location {
   margin: 30px;
+  font-family: 'Fauna One';
+  color: white;
 }
 .event {
   margin: 0 auto;

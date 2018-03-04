@@ -2,13 +2,15 @@ import React from 'react'
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 
+import './Navbar.css';
+
 
 const NavBar = (props) => {
   return (
     <Navbar>
           <Navbar.Header>
           <Navbar.Brand>
-              <a href="/">Oyster</a>
+              <a href="/">oyster</a>
           </Navbar.Brand>
           </Navbar.Header>
           <Nav>
