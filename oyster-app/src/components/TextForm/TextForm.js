@@ -30,13 +30,13 @@ class TextForm extends Component {
        </div>
        <br /><br />
        <div className="form-group">
-         <label className= "text-box" htmlFor="email">Email address:</label>
+         <label className= "text-box" htmlFor="email">Enter your email:</label>
          <input type="email" className="form-control"
            name="email" />
        </div>
-    
+       <br /><br />
        <div className="form-group">
-         <label className= "text-box" htmlFor="password">Name a few of your interests:</label>
+         <label className= "text-box" htmlFor="password">Enter a password:</label>
          <input type="password" className="form-control"
            name="password" />
        </div>
